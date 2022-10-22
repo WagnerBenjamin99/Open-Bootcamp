@@ -1,0 +1,14 @@
+{% extends 'layouts/base.html' %}
+{%load static%}
+
+{%block style%}
+    <link rel="stylesheet" href="{%static 'css/style_proyectos.css'%}">
+{%endblock%}
+{% block content %}
+    <div class="imagenes">
+        <img src="{% static 'images/gato.jpg' %}" alt="" class="imagen">
+        <img src="{% static 'images/gato.jpg' %}" alt="" class="imagen">
+        <img src="{% static 'images/gato.jpg' %}" alt="" class="imagen">
+    </div>
+    
+{%endblock%}

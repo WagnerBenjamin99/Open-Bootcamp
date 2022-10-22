@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+    <head>
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <header>
+            </header>
+
+            <main>
+                <h1> Hola {{name}}</h1>
+                {%comment%}
+                recorremos el array de categorias 
+                si hay uno llamado precio, lo muestro en negrita
+                {%endcomment%}
+                <ul>
+                    {% for category in categories %}
+                        {% if category == 'precio' %}
+                            <li><b>{{category|upper}}</b></li>
+                        {% else %}
+                            <li>{{category}}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </main>
+
+            <footer>
+            </footer>
+
+        </div>
+    </body>
+</html>

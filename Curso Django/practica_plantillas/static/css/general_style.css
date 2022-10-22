@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(143, 177, 92);
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    margin: auto;
+ 
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color:  rgb(143, 177, 92);
+    font-size: 20px;
+    justify-content: space-between;
+    height: 50px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+ul li{
+    padding: 20px;
+    padding-left: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(207, 203, 203);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Lemon Love;
+    padding: 10px;
+}
+ul li a:hover{
+    color: black;
+}
+main{
+    background: linear-gradient(rgb(143, 177, 92), white );
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
+    width: 100%;
+
+    
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color:  rgb(143, 177, 92);
+   
+}
+
+#encabezado{
+    padding: 20px;
+}
+header{
+    width: 100%;
+}
+@font-face{
+    font-family: Lemon Love;
+    src: url('../fonts/Lemon\ Love.ttf');
+}
